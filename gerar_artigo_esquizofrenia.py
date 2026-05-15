@@ -378,7 +378,7 @@ def build_manuscript():
     )
     add_paragraph(
         doc,
-        "O desafio contemporâneo é transformar a internação, muitas vezes vivida como ruptura, em oportunidade de reconstrução de vínculo, compreensão, segurança e projeto de vida. Uma psicoterapia ética da esquizofrenia no hospital geral deve ser colaborativa, antiextigmatizante, culturalmente sensível e integrada ao território. Quando o cuidado combina estabilização clínica, escuta, família, grupos, oficinas, manejo de sintomas e reabilitação, a meta deixa de ser apenas controlar a crise e passa a incluir recuperação possível, pertencimento e dignidade.",
+        "O desafio contemporâneo é transformar a internação, muitas vezes vivida como ruptura, em oportunidade de reconstrução de vínculo, compreensão, segurança e projeto de vida. Uma psicoterapia ética da esquizofrenia no hospital geral deve ser colaborativa, antistigmatizante, culturalmente sensível e integrada ao território. Quando o cuidado combina estabilização clínica, escuta, família, grupos, oficinas, manejo de sintomas e reabilitação, a meta deixa de ser apenas controlar a crise e passa a incluir recuperação possível, pertencimento e dignidade.",
     )
     page_break(doc)
 

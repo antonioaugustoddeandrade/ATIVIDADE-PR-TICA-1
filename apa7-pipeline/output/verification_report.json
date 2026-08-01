@@ -1,0 +1,121 @@
+{
+  "plagio": {
+    "similarity_percent": 2.97,
+    "threshold_percent": 15.0,
+    "flag_human_review": false,
+    "method": "heuristic-local (não é Turnitin/iThenticate)",
+    "components": {
+      "boilerplate_score": 0.0,
+      "repeat_score": 2.43,
+      "short_paragraph_score": 13.33
+    },
+    "ok": true,
+    "note": "Para submissão formal, rodar verificação comercial de similaridade."
+  },
+  "citacoes_vs_referencias": {
+    "citations_in_text": [
+      "bansal2026",
+      "cerqueira2025",
+      "clement2021",
+      "esplendori2018",
+      "hasan2020",
+      "ibrahim2023",
+      "kumatagi2025",
+      "mani2021",
+      "meher2024",
+      "patel2026",
+      "savaliya2019",
+      "silveira2022",
+      "thijsen2021",
+      "thijsen2022",
+      "thijsen2023"
+    ],
+    "citations_resolved": [
+      "bansal2026",
+      "cerqueira2025",
+      "clement2021",
+      "esplendori2018",
+      "hasan2020",
+      "ibrahim2023",
+      "kumatagi2025",
+      "mani2021",
+      "meher2024",
+      "patel2026",
+      "savaliya2019",
+      "silveira2022",
+      "thijsen2021",
+      "thijsen2022",
+      "thijsen2023"
+    ],
+    "missing_in_reference_list": [],
+    "unused_in_text": [],
+    "ok": true
+  },
+  "dois": {
+    "total": 15,
+    "located": 15,
+    "invalid_or_unlocated": [],
+    "without_doi": [],
+    "ok": true
+  },
+  "formatacao_apa": {
+    "issues": [],
+    "recommendations": [],
+    "ok": true
+  },
+  "coerencia_metodologica": {
+    "items": [
+      {
+        "item": "tipo_estudo_definido",
+        "ok": true,
+        "detail": "Revisão narrativa da literatura (síntese qualitativa de evidências)"
+      },
+      {
+        "item": "objetivo_definido",
+        "ok": true,
+        "detail": "objetivo presente"
+      },
+      {
+        "item": "amostra_ou_corpus",
+        "ok": true,
+        "detail": "Corpus de artigos indexados (2018–2026) obtidos e validados via CrossRef, priorizando periódicos de medicina transfusional, hemovigilância e enfermagem."
+      },
+      {
+        "item": "instrumentos",
+        "ok": true,
+        "detail": "3 itens"
+      },
+      {
+        "item": "procedimentos",
+        "ok": true,
+        "detail": "procedimentos descritos"
+      },
+      {
+        "item": "analises",
+        "ok": true,
+        "detail": "estratégia analítica descrita"
+      },
+      {
+        "item": "etica_declaracao_revisao",
+        "ok": true,
+        "detail": "Trata-se de revisão narrativa de literatura publicada. Não houve coleta de dados primários com participantes humanos ou animais; portanto, não se aplica aprovação por comitê de ética em pesquisa."
+      }
+    ],
+    "ok": true
+  },
+  "export_ready": true,
+  "summary": {
+    "similaridade_percent": 2.97,
+    "citacoes_faltantes": [],
+    "referencias_nao_citadas": [],
+    "referencias_sem_doi_ou_invalidas": [],
+    "erros_formatacao_apa": []
+  },
+  "run": {
+    "generated_at": "2026-08-01T12:07:12.613943+00:00",
+    "input": "data/estudo_input.yaml",
+    "idioma": "pt-BR",
+    "estilo": "APA-7",
+    "titulo": "Reações adversas na doação de sangue e o papel da enfermagem: revisão narrativa da evidência recente"
+  }
+}

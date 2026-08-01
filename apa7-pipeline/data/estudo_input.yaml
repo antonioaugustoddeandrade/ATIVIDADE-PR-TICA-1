@@ -1,0 +1,90 @@
+# Entrada do estudo — pipeline APA 7
+# Preencha este arquivo e execute: python scripts/run_pipeline.py
+
+idioma: pt-BR
+estilo_citacao: APA-7
+versao_rascunho: "2026-08-01"
+
+metadados:
+  titulo_provisorio: >-
+    Reações adversas na doação de sangue e o papel da enfermagem:
+    revisão narrativa da evidência recente
+  autores:
+    - nome: Antonio Augusto Dornelas de Andrade
+      orcid: "https://orcid.org/0009-0001-3556-483X"
+      afiliacao: Pesquisador independente
+      email: antonioandradepy@gmail.com
+      correspondente: true
+  financiamento: >-
+    Esta revisão não recebeu financiamento externo específico.
+  conflitos_interesse: >-
+    O autor declara não haver conflitos de interesse.
+  etica:
+    envolvidos_humanos_animais: false
+    declaracao: >-
+      Trata-se de revisão narrativa de literatura publicada.
+      Não houve coleta de dados primários com participantes humanos ou animais;
+      portanto, não se aplica aprovação por comitê de ética em pesquisa.
+  revista_alvo: Hematology, Transfusion and Cell Therapy
+
+estudo:
+  objetivo: >-
+    Sintetizar evidências recentes sobre reações adversas em doadores de sangue
+    (com ênfase em reações vasovagais), estratégias de prevenção e implicações
+    para a prática de enfermagem em serviços de hemoterapia.
+  hipoteses:
+    - >-
+      H1 (direcional, síntese): estratégias preventivas estruturadas
+      (hidratação, tensão muscular, abordagem emocional e estratificação de risco)
+      associam-se a menor ocorrência ou gravidade de reações vasovagais
+      e a maior probabilidade de retorno do doador.
+    - >-
+      H2 (direcional, síntese): a integração de hemovigilância do doador com
+      processos de enfermagem (triagem, vigilância, educação e registro)
+      fortalece a segurança e a retenção de doadores.
+  tipo_estudo: Revisão narrativa da literatura (síntese qualitativa de evidências)
+  amostra: >-
+    Corpus de artigos indexados (2018–2026) obtidos e validados via CrossRef,
+    priorizando periódicos de medicina transfusional, hemovigilância e enfermagem.
+  instrumentos:
+    - Protocolo de busca narrativa em CrossRef (DOI.org)
+    - Extração estruturada de metadados bibliográficos
+    - Checklist de coerência metodológica APA 7 do pipeline
+  procedimentos: >-
+    (1) definição da pergunta e dos eixos; (2) recuperação e validação de DOIs;
+    (3) leitura e síntese temática; (4) verificação de citações ↔ referências;
+    (5) checagens de formatação APA 7 e originalidade heurística.
+  analises: >-
+    Síntese narrativa por eixos: epidemiologia das reações; experiências do doador;
+    prevenção; hemovigilância; implicações para enfermagem. Sem meta-análise.
+  principais_achados_resumidos:
+    - >-
+      Reações vasovagais são o evento adverso mais discutido em doadores de sangue
+      total e associam-se a risco de não retorno.
+    - >-
+      Ensaios e revisões recentes apontam benefício de estratégias preventivas
+      combinadas e de abordagens estratificadas por risco.
+    - >-
+      A enfermagem articula triagem, vigilância, educação do doador e registro
+      em hemovigilância, com potencial diagnóstico de necessidades humanas básicas.
+  bibliografia_inicial:
+    - "10.1590/s1980-220x2017005003284"
+    - "10.1111/trf.17052"
+    - "10.1016/j.socscimed.2021.114142"
+    - "10.1111/tme.13026"
+    - "10.1111/trf.17169"
+    - "10.1016/j.tracli.2023.01.004"
+    - "10.4103/ajts.ajts_240_23"
+    - "10.4103/gjtm.gjtm_104_20"
+    - "10.1111/vox.70333"
+    - "10.1111/trf.16387"
+    - "10.29327/569347.1-5"
+    - "10.1016/j.htct.2025.105053"
+    - "10.4103/ajts.ajts_154_24"
+    - "10.18203/2319-2003.ijbcp20192647"
+    - "10.4103/ajts.ajts_111_17"
+
+limites_verificacao:
+  similaridade_max_percent: 15
+  exigir_doi_quando_disponivel: true
+  exigir_etica_se_humanos: true

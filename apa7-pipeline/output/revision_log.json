@@ -1,0 +1,23 @@
+{
+  "versions": [
+    {
+      "id": "v1.0.0",
+      "timestamp": "2026-08-01T12:07:12.671525+00:00",
+      "label": "rascunho_inicial_pipeline",
+      "changes_accepted": [
+        "Geração completa das seções APA 7",
+        "Validação CrossRef das referências iniciais",
+        "Exportação MD/DOCX/BibTeX/RIS"
+      ],
+      "changes_rejected": [],
+      "export_ready": true,
+      "notes": {
+        "similaridade_percent": 2.97,
+        "citacoes_faltantes": [],
+        "referencias_nao_citadas": [],
+        "referencias_sem_doi_ou_invalidas": [],
+        "erros_formatacao_apa": []
+      }
+    }
+  ]
+}

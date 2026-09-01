@@ -1,0 +1,21 @@
+{
+  "capa_completa": true,
+  "resumo_palavras_chave": true,
+  "secoes_obrigatorias": true,
+  "citacoes_consistentes": true,
+  "dois_validos": true,
+  "plagio_abaixo_limite": true,
+  "etica_declarada": true,
+  "orcid_autor": true,
+  "exports": {
+    "md": "artigo_apa7_retencao_motivacao_doadores_sangue.md",
+    "docx": "artigo_apa7_retencao_motivacao_doadores_sangue.docx",
+    "bib": "references.bib",
+    "ris": "references.ris",
+    "pdf": "artigo_apa7_retencao_motivacao_doadores_sangue.pdf",
+    "verification_report": "verification_report.json",
+    "revision_log": "revision_log.json",
+    "cover_letter": "cover_letter.md"
+  },
+  "export_ready": true
+}

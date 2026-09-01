@@ -1,0 +1,106 @@
+# Entrada do estudo — pipeline APA 7
+# Preencha este arquivo e execute: python3 scripts/run_pipeline.py
+
+idioma: pt-BR
+estilo_citacao: APA-7
+versao_rascunho: "2026-09-01"
+slug: retencao_motivacao_doadores_sangue
+
+metadados:
+  titulo_provisorio: >-
+    Motivação, retenção e fidelização de doadores de sangue:
+    implicações para a enfermagem em serviços de hemoterapia
+  autores:
+    - nome: Antonio Augusto Dornelas de Andrade
+      orcid: "https://orcid.org/0009-0001-3556-483X"
+      afiliacao: Pesquisador independente
+      email: antonioandradepy@gmail.com
+      correspondente: true
+  financiamento: >-
+    Esta revisão não recebeu financiamento externo específico.
+  conflitos_interesse: >-
+    O autor declara não haver conflitos de interesse.
+  etica:
+    envolvidos_humanos_animais: false
+    declaracao: >-
+      Trata-se de revisão narrativa de literatura publicada.
+      Não houve coleta de dados primários com participantes humanos ou animais;
+      portanto, não se aplica aprovação por comitê de ética em pesquisa.
+  revista_alvo: Transfusion Medicine
+
+estudo:
+  objetivo: >-
+    Sintetizar evidências sobre motivadores e barreiras da doação, preditores de
+    retorno (em especial de doadores de primeira vez), intervenções de retenção
+    e implicações operacionais para a enfermagem em serviços de hemoterapia.
+  hipoteses:
+    - >-
+      H1 (direcional, síntese): intervenções estruturadas de retenção
+      (comunicação educativa ou emocional, lembretes e técnicas de intenção de
+      implementação/compromisso explícito) associam-se a maior retorno de
+      doadores de primeira vez do que a ausência de intervenção ou campanhas
+      genéricas indiferenciadas.
+    - >-
+      H2 (direcional, síntese): a qualidade do encontro assistencial de
+      enfermagem (acolhimento, educação, experiência de serviço e seguimento)
+      opera como mediador organizacional da retenção, e não apenas como apoio
+      técnico à coleta.
+  tipo_estudo: Revisão narrativa da literatura (síntese qualitativa de evidências)
+  amostra: >-
+    Corpus de artigos indexados com DOI validado via CrossRef, priorizando
+    revisões sistemáticas e meta-análises, ensaios e estudos observacionais
+    sobre retenção, bem como evidência brasileira de enfermagem e de saúde
+    coletiva (2010–2020, com âncoras teóricas de 2007–2009).
+  instrumentos:
+    - Protocolo de busca narrativa e validação de DOIs na API CrossRef
+    - Extração estruturada de metadados bibliográficos (APA 7)
+    - Checklist de coerência metodológica e de correspondência citação–referência
+  procedimentos: >-
+    (1) definição da pergunta e das hipóteses de síntese; (2) recuperação e
+    validação de DOIs; (3) leitura e síntese por eixos (taxonomia motivacional,
+    modelos sociocognitivos, janela da primeira doação, intervenções, lapso,
+    contexto brasileiro, enfermagem); (4) verificação de citações e formatação
+    APA 7; (5) checagem heurística de originalidade.
+  analises: >-
+    Síntese narrativa por eixos, sem meta-análise própria. Efeitos numéricos
+    reportados pelos estudos primários são reproduzidos apenas quando
+    explicitados nas fontes recuperadas.
+  principais_achados_resumidos:
+    - >-
+      Apenas uma fração da população elegível doa, e cerca de metade dos
+      doadores de primeira vez não retorna, o que torna a retenção problema
+      estrutural de abastecimento.
+    - >-
+      Motivadores pró-sociais e valores pessoais coexistam com conveniência,
+      autoeficácia e qualidade do serviço; medo, adiamentos e experiência
+      negativa predizem não retorno.
+    - >-
+      Lembretes e incentivos tradicionais têm efeito pequeno; cartas emocionais
+      ou educativas, lembretes telefônicos e técnicas de intenção de
+      implementação combinadas a compromisso explícito mostram ganhos de retorno.
+    - >-
+      A enfermagem articula acolhimento, educação e experiência de serviço,
+      elementos que a evidência internacional associa à decisão de doar de novo.
+  bibliografia_inicial:
+    - "10.1016/j.tmrv.2016.02.002"
+    - "10.1016/j.tmrv.2011.04.005"
+    - "10.1016/j.socscimed.2013.07.022"
+    - "10.1111/trf.15404"
+    - "10.1111/vox.12189"
+    - "10.1111/vox.13026"
+    - "10.1111/trf.15436"
+    - "10.1111/j.1537-2995.2007.01423.x"
+    - "10.1111/j.1537-2995.2008.01981.x"
+    - "10.1111/j.1537-2995.2012.03810.x"
+    - "10.1590/s0103-21002010000100011"
+    - "10.1111/j.1537-2995.2007.01409.x"
+    - "10.1111/tme.12249"
+    - "10.1590/s0034-89102010000100012"
+    - "10.1111/trf.13874"
+    - "10.1111/j.1537-2995.2007.01331.x"
+    - "10.1016/j.bjhh.2016.05.006"
+
+limites_verificacao:
+  similaridade_max_percent: 15
+  exigir_doi_quando_disponivel: true
+  exigir_etica_se_humanos: true

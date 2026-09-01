@@ -1,0 +1,133 @@
+{
+  "plagio": {
+    "similarity_percent": 2.25,
+    "threshold_percent": 15.0,
+    "flag_human_review": false,
+    "method": "heuristic-local (não é Turnitin/iThenticate)",
+    "components": {
+      "boilerplate_score": 0.0,
+      "repeat_score": 1.4,
+      "short_paragraph_score": 11.25
+    },
+    "ok": true,
+    "note": "Para submissão formal, rodar verificação comercial de similaridade."
+  },
+  "citacoes_vs_referencias": {
+    "citations_in_text": [
+      "asamoahakuoko2021",
+      "bagot2016",
+      "bednall2011",
+      "bednall2013",
+      "conceição2016",
+      "dongen2013",
+      "dongen2015",
+      "ferguson2007",
+      "gemelli2017",
+      "germain2007",
+      "giacomini2010",
+      "godin2007",
+      "hashemi2019",
+      "masser2009",
+      "swanevelder2019",
+      "wevers2015",
+      "zago2010"
+    ],
+    "citations_resolved": [
+      "asamoahakuoko2021",
+      "bagot2016",
+      "bednall2011",
+      "bednall2013",
+      "conceição2016",
+      "ferguson2007",
+      "gemelli2017",
+      "germain2007",
+      "giacomini2010",
+      "godin2007",
+      "hashemi2019",
+      "masser2009",
+      "swanevelder2019",
+      "vandongen2013",
+      "vandongen2015",
+      "wevers2015",
+      "zago2010"
+    ],
+    "missing_in_reference_list": [],
+    "unused_in_text": [],
+    "ok": true
+  },
+  "dois": {
+    "total": 17,
+    "located": 17,
+    "invalid_or_unlocated": [],
+    "without_doi": [],
+    "ok": true
+  },
+  "formatacao_apa": {
+    "issues": [],
+    "recommendations": [],
+    "ok": true
+  },
+  "coerencia_metodologica": {
+    "items": [
+      {
+        "item": "tipo_estudo_definido",
+        "ok": true,
+        "detail": "Revisão narrativa da literatura (síntese qualitativa de evidências)"
+      },
+      {
+        "item": "objetivo_definido",
+        "ok": true,
+        "detail": "objetivo presente"
+      },
+      {
+        "item": "amostra_ou_corpus",
+        "ok": true,
+        "detail": "Corpus de artigos indexados com DOI validado via CrossRef, priorizando revisões sistemáticas e meta-análises, ensaios e estudos observacionais sobre retenção, b"
+      },
+      {
+        "item": "instrumentos",
+        "ok": true,
+        "detail": "3 itens"
+      },
+      {
+        "item": "procedimentos",
+        "ok": true,
+        "detail": "procedimentos descritos"
+      },
+      {
+        "item": "analises",
+        "ok": true,
+        "detail": "estratégia analítica descrita"
+      },
+      {
+        "item": "etica_declaracao_revisao",
+        "ok": true,
+        "detail": "Trata-se de revisão narrativa de literatura publicada. Não houve coleta de dados primários com participantes humanos ou animais; portanto, não se aplica aprovação por comitê de ética em pesquisa."
+      }
+    ],
+    "ok": true
+  },
+  "export_ready": true,
+  "summary": {
+    "similaridade_percent": 2.25,
+    "citacoes_faltantes": [],
+    "referencias_nao_citadas": [],
+    "referencias_sem_doi_ou_invalidas": [],
+    "erros_formatacao_apa": []
+  },
+  "orcid": {
+    "orcid": "0009-0001-3556-483X",
+    "ok": true,
+    "display_name": "ANTONIO AUGUSTO  DORNELAS DE ANDRADE",
+    "url": "https://orcid.org/0009-0001-3556-483X"
+  },
+  "run": {
+    "generated_at": "2026-09-01T12:10:11.586096+00:00",
+    "input": "data/estudo_input.yaml",
+    "idioma": "pt-BR",
+    "estilo": "APA-7",
+    "titulo": "Motivação, retenção e fidelização de doadores de sangue: implicações para a enfermagem em serviços de hemoterapia",
+    "slug": "retencao_motivacao_doadores_sangue",
+    "versao": "2026-09-01"
+  }
+}

@@ -10,7 +10,13 @@ from pathlib import Path
 from typing import Any
 
 
-SECOND_AUTHOR = r"(?:\s+et\s+al\.|\s*&\s*[A-ZÀ-Ÿ][A-Za-zÀ-ÿ'\-]+|\s+(?:and|e)\s+[A-ZÀ-Ÿ][A-Za-zÀ-ÿ'\-]+)"
+NAME_TOKEN = r"[A-ZÀ-Ÿ][A-Za-zÀ-ÿ'\-]+(?:\s+[A-ZÀ-Ÿ][A-Za-zÀ-ÿ'\-]+)?"
+SECOND_AUTHOR = (
+    r"(?:\s+et\s+al\."
+    r"|\s*&\s*" + NAME_TOKEN +
+    r"|\s+(?:and|e)\s+" + NAME_TOKEN +
+    r")"
+)
 PARENTHETICAL_UNIT = re.compile(
     r"([A-ZÀ-Ÿ][A-Za-zÀ-ÿ'\-]+)"
     + SECOND_AUTHOR

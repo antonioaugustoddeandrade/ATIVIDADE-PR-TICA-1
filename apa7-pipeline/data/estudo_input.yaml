@@ -1,0 +1,113 @@
+# Entrada do estudo — pipeline APA 7
+# Preencha este arquivo e execute: python3 scripts/run_pipeline.py
+
+idioma: pt-BR
+estilo_citacao: APA-7
+versao_rascunho: "2026-10-01"
+slug: ferro_hemoglobina_doadores_sangue
+
+metadados:
+  titulo_provisorio: >-
+    Deficiência de ferro e inaptidão por hemoglobina em doadores de sangue:
+    implicações para a triagem de enfermagem em hemoterapia
+  autores:
+    - nome: Antonio Augusto Dornelas de Andrade
+      orcid: "https://orcid.org/0009-0001-3556-483X"
+      afiliacao: Pesquisador independente
+      email: antonioandradepy@gmail.com
+      correspondente: true
+  financiamento: >-
+    Esta revisão não recebeu financiamento externo específico.
+  conflitos_interesse: >-
+    O autor declara não haver conflitos de interesse.
+  etica:
+    envolvidos_humanos_animais: false
+    declaracao: >-
+      Trata-se de revisão narrativa de literatura publicada.
+      Não houve coleta de dados primários com participantes humanos ou animais;
+      portanto, não se aplica aprovação por comitê de ética em pesquisa.
+      Os estudos citados permaneceram responsáveis por seus próprios pareceres.
+  revista_alvo: Transfusion
+
+estudo:
+  objetivo: >-
+    Sintetizar evidências sobre a frequência e os preditores da depleção de ferro
+    em doadores de sangue, o desempenho da hemoglobina como critério de aptidão,
+    o efeito de intervalos entre doações e de estratégias de reposição de ferro,
+    e as implicações para a triagem clínica realizada pela enfermagem.
+  hipoteses:
+    - >-
+      H1 (direcional, síntese): intensidade de doação e intervalo curto entre
+      coletas associam-se a estoques de ferro ausentes, eritropoese ferropriva
+      e inaptidão por hemoglobina baixa, para além do efeito isolado de sexo e idade.
+    - >-
+      H2 (direcional, síntese): suplementação de ferro direcionada — e não o uso
+      universal não monitorado — reduz inaptidão por hemoglobina baixa e acelera
+      a recuperação de estoques, com eventos adversos que limitam a adesão.
+    - >-
+      H3 (conceitual): a triagem clínica de enfermagem é o ponto operacional em
+      que erro de medida, explicação da inaptidão e encaminhamento para reposição
+      ou alongamento de intervalo precisam ser articulados.
+  tipo_estudo: Revisão narrativa da literatura (síntese qualitativa de evidências)
+  amostra: >-
+    Corpus de artigos de periódico com DOI validado via CrossRef (2001–2020),
+    cobrindo coortes de estoques de ferro, ensaios de suplementação, uma revisão
+    Cochrane, um ensaio de intervalo entre doações, estudos brasileiros de
+    hemocentros e um estudo de competências de enfermagem na triagem clínica.
+  instrumentos:
+    - Protocolo de curadoria narrativa e validação de DOIs na API CrossRef
+    - Extração de estimativas tal como publicadas nos resumos e conclusões das fontes
+    - Checklist de coerência metodológica e de correspondência citação–referência
+  procedimentos: >-
+    (1) definição da pergunta e das hipóteses de síntese; (2) seleção e validação
+    de DOIs; (3) leitura e síntese por eixos (prevalência e preditores, medida e
+    inaptidão, intervalo entre doações, reposição, algoritmos de serviço,
+    triagem de enfermagem); (4) verificação de citações e formatação APA 7;
+    (5) checagem heurística de originalidade.
+  analises: >-
+    Síntese narrativa por eixos, sem meta-análise própria. Razões de risco,
+    médias e proporções são reproduzidas apenas quando explicitadas nas fontes
+    recuperadas. Não se imputaram valores ausentes nem se recalcularam intervalos
+    de confiança.
+  principais_achados_resumidos:
+    - >-
+      Doadores frequentes apresentam alta proporção de estoques de ferro ausentes
+      e de eritropoese ferropriva; sexo, idade, menstruação e intensidade de doação
+      são preditores reiterados.
+    - >-
+      A hemoglobina isolada deixa passar deficiência sem anemia e sofre efeito de
+      horário, estação e método de medida, com inaptidões que a dosagem automatizada
+      não confirma.
+    - >-
+      Ferro oral em dose baixa acelera a recuperação da hemoglobina; a revisão
+      Cochrane estima redução da inaptidão, acompanhada de mais eventos adversos.
+    - >-
+      Intervalos mais curtos aumentam a coleta e também a deficiência de ferro.
+      Algoritmos com ferritina e reposição dirigida elevaram a hemoglobina em serviço.
+    - >-
+      A enfermeira que realiza a triagem clínica é quem informa a causa provável
+      da inaptidão e encaminha a conduta de ferro.
+  bibliografia_inicial:
+    - "10.1111/j.1537-2995.2010.02865.x"
+    - "10.1111/j.1537-2995.2011.03401.x"
+    - "10.1001/jama.2015.119"
+    - "10.1111/trf.13659"
+    - "10.1016/j.tmrv.2013.11.001"
+    - "10.1002/14651858.cd009532.pub2"
+    - "10.1111/j.1537-2995.2011.03173.x"
+    - "10.1111/trf.15448"
+    - "10.1111/tme.12477"
+    - "10.1111/trf.13152"
+    - "10.1590/s1516-31802001000400003"
+    - "10.5581/1516-8484.20120086"
+    - "10.1111/trf.13578"
+    - "10.1016/s0140-6736(17)31928-1"
+    - "10.1590/s0034-71672011000200003"
+    - "10.1111/vox.12348"
+    - "10.1016/j.clnu.2019.03.025"
+    - "10.5581/1516-8484.20120092"
+
+limites_verificacao:
+  similaridade_max_percent: 15
+  exigir_doi_quando_disponivel: true
+  exigir_etica_se_humanos: true
